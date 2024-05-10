@@ -1,0 +1,1333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("GreatVibes-Regular-webfont.ttf");
+}
+@font-face {
+  font-family: "myfont2";
+  src: url("JosefinSans-Regular.ttf");
+}
+nav {
+  font-family: "myfont2", JosefinSans;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+nav .logo {
+  position: relative;
+  right: 12%;
+  width: 150px;
+  height: 10vh;
+}
+nav .mylinks a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: "myfont2", JosefinSans;
+}
+nav .mylinks i {
+  color: #742296;
+}
+nav .mylinks .bars {
+  display: none;
+}
+nav .mylinks .move {
+  margin-left: 30px;
+  border-radius: 10cm;
+}
+nav .mylinks .aa {
+  color: black;
+}
+nav .mylinks .ss {
+  color: #742296;
+}
+nav #myNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #742296;
+  opacity: 40;
+  overflow-x: hidden;
+  transition: 0.3s;
+  display: none;
+  font-family: "myfont2", JosefinSans;
+}
+
+.banner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.banner h1 {
+  font-family: "myfont2", JosefinSans;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 100px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.banner .ban {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.banner p {
+  font-family: "myfont2", JosefinSans;
+  font-size: 18px;
+  width: 380px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.banner .vidz {
+  color: #742296;
+}
+.banner .buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.banner .disc {
+  background-color: #742296;
+  border: none;
+  color: white;
+  font-family: "myfont2", JosefinSans;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+.banner .book {
+  border: solid 4px #742296;
+  font-family: "myfont2", JosefinSans;
+  padding: 6px 10px 6px 10px;
+  margin-bottom: 20px;
+}
+.banner i {
+  color: black;
+  margin-right: 5px;
+}
+.banner img {
+  width: 400px;
+  height: 80vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.banner .imga {
+  margin-top: 50px;
+}
+.banner .imgs {
+  margin-right: 30px;
+}
+
+#About {
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+#About h2 {
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+#About p {
+  font-family: "myfont2", JosefinSans;
+  width: 447px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+#About .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+#About .container .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 480px;
+}
+#About .container .images img {
+  width: 240px;
+  height: 45vh;
+}
+#About .container .images .imga {
+  margin-top: 80px;
+}
+#About .vidsss {
+  display: flex;
+  flex-direction: column;
+}
+#About .vidsss p {
+  font-family: "myfont2", JosefinSans;
+  font-size: 18px;
+  margin-top: 15px;
+}
+#About .vidsss button {
+  width: 120px;
+  background-color: #742296;
+  padding: 8px;
+  border: none;
+  margin-top: 75px;
+  color: white;
+  font-family: "myfont2", JosefinSans;
+}
+#About .video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(WhatsApp\ Image\ 2024-05-02\ at\ 16.24.13_11af13b4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 447px;
+  height: 50vh;
+}
+#About .video img {
+  border-radius: 12px;
+  width: 40px;
+  height: 30px;
+}
+
+#Services {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#Services h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-family: "myfont2", JosefinSans;
+  font-size: 24px;
+  font-weight: bolder;
+}
+#Services .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#Services .container .icons {
+  background-image: url(WhatsApp\ Image\ 2024-05-03\ at\ 09.13.57_ba146596.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 75vh;
+  position: relative;
+}
+#Services .container .icons .icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 85.5%;
+  top: 89.5%;
+}
+#Services .container .iconss {
+  background-image: url(WhatsApp\ Image\ 2024-05-03\ at\ 09.14.00_d618c560.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 75vh;
+  position: relative;
+}
+#Services .container .iconss .icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 85.5%;
+  top: 89.5%;
+}
+#Services .container h4 {
+  font-family: "myfont2", JosefinSans;
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  top: 92%;
+  left: 40%;
+  color: white;
+}
+#Services .container .list {
+  background-color: #742296;
+  height: 75vh;
+  width: 350px;
+  color: white;
+  position: relative;
+}
+#Services .container .list ol {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "myfont2", JosefinSans;
+}
+#Services .container .list ol li {
+  margin-bottom: 10px;
+}
+#Services .container .list ol .icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 85.5%;
+  top: 89.5%;
+}
+#Services .container .list h3 {
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#Testimonial {
+  margin-top: 50px;
+}
+#Testimonial h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-size: 24px;
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+}
+#Testimonial .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#Testimonial .posi {
+  position: relative;
+  bottom: 50px;
+}
+#Testimonial .Tendai {
+  background-image: url(WhatsApp\ Image\ 2024-05-02\ at\ 16.24.16_b5f3f362.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 50vh;
+}
+#Testimonial .Tendai i {
+  color: white;
+  background-color: #742296;
+  padding: 5px;
+  position: absolute;
+  top: 86%;
+  left: 90%;
+}
+#Testimonial p {
+  font-family: "myfont2", JosefinSans;
+  font-size: 18px;
+  width: 400px;
+}
+#Testimonial h4 {
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+}
+#Testimonial .Miranda {
+  background-image: url(WhatsApp\ Image\ 2024-05-03\ at\ 09.14.07_90f0d785.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 50vh;
+}
+#Testimonial .Miranda i {
+  color: white;
+  background-color: #742296;
+  padding: 5px;
+  position: absolute;
+  top: 86%;
+  left: 90%;
+}
+
+.seen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.seen p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+}
+.seen button {
+  padding: 4px 8px 4px 8px;
+  background-color: #742296;
+  border: none;
+  color: white;
+  font-family: "myfont2", JosefinSans;
+}
+.seen h2 {
+  font-family: "myfont2", JosefinSans;
+  font-weight: bolder;
+  margin-top: 50px;
+  font-size: 24px;
+}
+.seen .gram {
+  font-family: "myfont", GreatVibes;
+}
+.seen .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1000px;
+}
+.seen .container .imag {
+  margin-top: 150px;
+}
+.seen .container img {
+  width: 160px;
+  height: 55vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  background-color: #742296;
+}
+footer i {
+  margin-right: 10px;
+  color: white;
+}
+footer img {
+  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+footer h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: white;
+  text-decoration: underline;
+  font-family: "myfont2", JosefinSans;
+}
+footer p {
+  font-family: "myfont2", JosefinSans;
+  font-size: 18px;
+  color: white;
+}
+
+@media screen and (max-width: 575.98px) {
+  nav {
+    margin-top: 20px;
+  }
+  nav .mode {
+    display: none;
+  }
+  nav .aa {
+    display: none;
+  }
+  nav .ss {
+    display: none;
+  }
+  nav .logo {
+    position: relative;
+    right: 10%;
+    width: 150px;
+  }
+  nav .mylinks .move {
+    width: 30px;
+    height: 30px;
+  }
+  nav .mylinks .bars {
+    display: flex;
+    color: #742296;
+  }
+  nav #myNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(115, 34, 150, 0.8352941176);
+    overflow-x: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  nav #myNav i {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+  }
+  nav #myNav a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner h1 {
+    font-size: 34px;
+    width: 300px;
+    margin-top: 0;
+  }
+  .banner #none {
+    display: none;
+  }
+  .banner #non {
+    display: none;
+  }
+  .banner .disc {
+    padding: 8px 10px 8px 10px;
+  }
+  .banner .book {
+    border: solid 4px #742296;
+    padding: 4px 10px 4px 10px;
+    margin-bottom: 20px;
+  }
+  .banner .ban {
+    margin-left: 15px;
+    margin-right: 0px;
+  }
+  .banner .ban p {
+    font-size: 16px;
+    width: 320px;
+  }
+  .banner img {
+    width: 158px;
+    height: 60vh;
+    margin-bottom: 10px;
+  }
+  #About {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #About h2 {
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  #About p {
+    font-size: 16px;
+    width: 300px;
+  }
+  #About .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #About .container .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  #About .container .images img {
+    width: 300px;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #About .container .images .imga {
+    margin-top: 0px;
+  }
+  #About .container .images .imgg {
+    display: none;
+  }
+  #About .vidsss button {
+    width: 120px;
+    margin-top: 10px;
+  }
+  #About .video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40vh;
+  }
+  #About .video img {
+    width: 40px;
+    height: 30px;
+  }
+  #Services h2 {
+    margin-left: 35px;
+    width: 300px;
+  }
+  #Services .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #Services .container .icons {
+    width: 300px;
+    height: 60vh;
+    position: relative;
+  }
+  #Services .container .icons .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 83.5%;
+    top: 87.5%;
+  }
+  #Services .container .iconss {
+    width: 300px;
+    height: 60vh;
+    position: relative;
+  }
+  #Services .container .iconss .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 83.5%;
+    top: 87.5%;
+  }
+  #Services .container .list {
+    height: 60vh;
+    width: 300px;
+  }
+  #Services .container .list ol .icon {
+    left: 83.5%;
+    top: 87.5%;
+  }
+  #Testimonial h2 {
+    margin-left: 35px;
+    width: 300px;
+  }
+  #Testimonial .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #Testimonial .Tendai {
+    width: 300px;
+    height: 40vh;
+  }
+  #Testimonial .Tendai i {
+    top: 84%;
+    left: 87%;
+  }
+  #Testimonial p {
+    font-size: 16px;
+    width: 300px;
+  }
+  #Testimonial .Miranda {
+    width: 300px;
+    height: 40vh;
+    margin-top: 50px;
+  }
+  #Testimonial .Miranda i {
+    top: 84%;
+    left: 87%;
+  }
+  .seen {
+    margin-top: 0;
+  }
+  .seen h2 {
+    margin-top: 0;
+  }
+  .seen .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 360px;
+  }
+  .seen .container img {
+    margin-top: 0px;
+    width: 100px;
+    height: 40vh;
+  }
+  .seen .container .imag {
+    margin-top: 0px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  footer img {
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  nav {
+    margin-top: 20px;
+  }
+  nav .logo {
+    position: relative;
+    right: 3%;
+    height: 7vh;
+  }
+  nav .mylinks a {
+    margin-left: 15px;
+  }
+  nav .mylinks .move {
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .banner h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    width: 400px;
+  }
+  .banner .ban {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .banner p {
+    font-size: 22px;
+    width: 380px;
+  }
+  .banner .imga {
+    margin-top: 0;
+  }
+  .banner img {
+    width: 200px;
+    height: 50vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: 0px;
+  }
+  .banner #none {
+    display: none;
+  }
+  .banner #non {
+    display: none;
+  }
+  .banner #nons {
+    display: none;
+  }
+  #About {
+    margin-top: 50px;
+  }
+  #About h2 {
+    margin-left: 35px;
+    font-size: 24px;
+  }
+  #About p {
+    width: 600px;
+    font-size: 22px;
+  }
+  #About .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #About .container .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-bottom: 30px;
+  }
+  #About .container .images img {
+    width: 300px;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #About .container .images .imga {
+    margin-top: 30px;
+  }
+  #About .vidsss {
+    display: flex;
+    flex-direction: column;
+  }
+  #About .vidsss button {
+    width: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  #About .video {
+    width: 600px;
+    height: 50vh;
+  }
+  #Services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #Services h2 {
+    margin-left: 35px;
+  }
+  #Services .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  #Services .container .icons {
+    width: 250px;
+    height: 40vh;
+    position: relative;
+  }
+  #Services .container .icons .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 78.5%;
+    top: 87.5%;
+  }
+  #Services .container .iconss {
+    width: 250px;
+    height: 40vh;
+    position: relative;
+  }
+  #Services .container .iconss .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 78.5%;
+    top: 87.5%;
+  }
+  #Services .container h4 {
+    font-size: 22px;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+  }
+  #Services .container .list {
+    height: 40vh;
+    width: 250px;
+    position: relative;
+  }
+  #Services .container .list ol {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #Services .container .list ol li {
+    margin-bottom: 10px;
+  }
+  #Services .container .list ol .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 78.5%;
+    top: 87.5%;
+  }
+  #Services .container .list h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #Testimonial {
+    margin-top: 25px;
+  }
+  #Testimonial h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 24px;
+    width: 400px;
+  }
+  #Testimonial .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  #Testimonial .Tendai {
+    position: relative;
+    width: 330px;
+    height: 30vh;
+  }
+  #Testimonial .Tendai i {
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  #Testimonial p {
+    font-size: 22px;
+    width: 330px;
+  }
+  #Testimonial .Miranda {
+    position: relative;
+    width: 330px;
+    height: 30vh;
+  }
+  #Testimonial .Miranda i {
+    color: white;
+    background-color: #742296;
+    padding: 5px;
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  .seen {
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+  .seen p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .seen .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+  .seen .container .imag {
+    margin: 0;
+  }
+  .seen .container button {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .seen .container img {
+    width: 215px;
+    height: 44vh;
+    margin: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 70px;
+    margin-top: 50px;
+    background-color: #742296;
+  }
+  footer i {
+    margin-right: 10px;
+    color: white;
+  }
+  footer img {
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  footer h4 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline;
+  }
+  footer p {
+    font-size: 22px;
+    color: white;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  nav {
+    margin-top: 20px;
+  }
+  nav .logo {
+    position: relative;
+    right: 5%;
+    width: 200px;
+    height: 7vh;
+  }
+  nav .mylinks .move {
+    width: 40px;
+    height: 40px;
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -136px;
+  }
+  .banner h1 {
+    font-size: 42px;
+    margin-top: 0px;
+    width: 400px;
+  }
+  .banner .ban {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .banner p {
+    font-size: 30px;
+    width: 410px;
+  }
+  .banner img {
+    width: 250px;
+    height: 65vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: 0;
+  }
+  .banner #none {
+    display: none;
+  }
+  .banner #non {
+    display: none;
+  }
+  #About {
+    margin-top: 40px;
+  }
+  #About h2 {
+    margin-left: 35px;
+    font-size: 35px;
+  }
+  #About p {
+    width: 700px;
+    font-size: 30px;
+  }
+  #About .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #About .container .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  #About .container .images img {
+    width: 350px;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #About .container .images .imga {
+    margin-top: 30px;
+  }
+  #About .vidsss {
+    display: flex;
+    flex-direction: column;
+  }
+  #About .vidsss p {
+    font-size: 30px;
+  }
+  #About .vidsss button {
+    margin-top: 30px;
+  }
+  #About .video {
+    width: 700px;
+    height: 50vh;
+  }
+  #Services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #Services h2 {
+    margin-left: 35px;
+    font-size: 35px;
+  }
+  #Services .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #Services .container .icons {
+    width: 300px;
+    height: 40vh;
+    position: relative;
+  }
+  #Services .container .icons .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 83.5%;
+    top: 90.5%;
+  }
+  #Services .container .iconss {
+    width: 300px;
+    height: 40vh;
+    position: relative;
+  }
+  #Services .container .iconss .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 83.5%;
+    top: 90.5%;
+  }
+  #Services .container h4 {
+    font-size: 30px;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+  }
+  #Services .container .list {
+    height: 40vh;
+    width: 300px;
+    position: relative;
+  }
+  #Services .container .list ol {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #Services .container .list ol li {
+    margin-bottom: 10px;
+  }
+  #Services .container .list ol .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 83.5%;
+    top: 90.5%;
+  }
+  #Services .container .list h3 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #Testimonial {
+    margin-top: 50px;
+  }
+  #Testimonial h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+    width: 450px;
+  }
+  #Testimonial .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  #Testimonial .Tendai {
+    position: relative;
+    width: 380px;
+    height: 25vh;
+  }
+  #Testimonial .Tendai i {
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  #Testimonial p {
+    font-size: 30px;
+    width: 380px;
+  }
+  #Testimonial .Miranda {
+    position: relative;
+    width: 380px;
+    height: 25vh;
+  }
+  #Testimonial .Miranda i {
+    color: white;
+    background-color: #742296;
+    padding: 5px;
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  .seen h2 {
+    font-size: 35px;
+  }
+  .seen p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .seen .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+    width: 900px;
+  }
+  .seen .container .imag {
+    margin-top: 0;
+  }
+  .seen .container img {
+    width: 285px;
+    height: 45vh;
+  }
+  footer p {
+    font-size: 20px;
+    width: 200px;
+  }
+  footer h4 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1399.98px) {
+  .banner h1 {
+    font-size: 42px;
+    width: 400px;
+  }
+  .banner p {
+    font-size: 22px;
+  }
+  .banner img {
+    width: 250px;
+    height: 68vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: 0;
+  }
+  #About h2 {
+    font-size: 28px;
+  }
+  #About p {
+    width: 500px;
+    font-size: 22px;
+  }
+  #About .container .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  #About .container .images img {
+    width: 250px;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #About .container .images .imga {
+    margin-top: 30px;
+  }
+  #About .vidsss {
+    display: flex;
+    flex-direction: column;
+  }
+  #About .vidsss p {
+    font-size: 22px;
+  }
+  #About .vidsss button {
+    margin-top: 30px;
+  }
+  #About .video {
+    width: 500px;
+    height: 50vh;
+  }
+  #Services h2 {
+    font-size: 28px;
+  }
+  #Services .container .icons {
+    width: 400px;
+    height: 70vh;
+    position: relative;
+  }
+  #Services .container .icons .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 87.5%;
+    top: 91.5%;
+  }
+  #Services .container .iconss {
+    width: 400px;
+    height: 70vh;
+    position: relative;
+  }
+  #Services .container .iconss .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 87.5%;
+    top: 91.5%;
+  }
+  #Services .container h4 {
+    font-size: 24px;
+    position: absolute;
+    top: 92%;
+    left: 40%;
+  }
+  #Services .container .list {
+    height: 70vh;
+    width: 400px;
+    position: relative;
+  }
+  #Services .container .list ol {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  #Services .container .list ol li {
+    margin-bottom: 10px;
+  }
+  #Services .container .list ol .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 87.5%;
+    top: 91.5%;
+  }
+  #Services .container .list h3 {
+    font-size: 26px;
+  }
+  #Testimonial h2 {
+    font-size: 28px;
+  }
+  #Testimonial .container .Tendai {
+    width: 450px;
+    height: 45vh;
+  }
+  #Testimonial .container .Tendai i {
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  #Testimonial .container p {
+    font-size: 22px;
+    width: 380px;
+  }
+  #Testimonial .container .Miranda {
+    position: relative;
+    width: 450px;
+    height: 45vh;
+  }
+  #Testimonial .container .Miranda i {
+    color: white;
+    background-color: #742296;
+    padding: 5px;
+    position: absolute;
+    top: 86%;
+    left: 90%;
+  }
+  #Testimonial .seen p {
+    font-size: 22px;
+  }
+  #Testimonial footer p {
+    font-size: 22px;
+    width: 200px;
+  }
+  #Testimonial footer h4 {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=styles.css.map */
