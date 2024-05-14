@@ -39,8 +39,10 @@ nav .mylinks .bars {
   display: none;
 }
 nav .mylinks .move {
-  margin-left: 30px;
+  margin-left: 100px;
   border-radius: 10cm;
+  width: 40px;
+  height: 40px;
 }
 nav .mylinks .aa {
   color: black;
@@ -268,11 +270,13 @@ nav #myNav {
   margin-bottom: 10px;
 }
 #Services .container .list ol .icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  left: 85.5%;
-  top: 89.5%;
+  left: 88.8%;
+  top: 91.5%;
+  background-color: white;
+  padding: 10px;
 }
 #Services .container .list h3 {
   font-family: "myfont2", JosefinSans;
@@ -316,8 +320,8 @@ nav #myNav {
   background-color: #742296;
   padding: 5px;
   position: absolute;
-  top: 86%;
-  left: 90%;
+  top: 86.4%;
+  left: 90.4%;
 }
 #Testimonial p {
   font-family: "myfont2", JosefinSans;
@@ -344,8 +348,8 @@ nav #myNav {
   background-color: #742296;
   padding: 5px;
   position: absolute;
-  top: 86%;
-  left: 90%;
+  top: 86.4%;
+  left: 90.4%;
 }
 
 .seen {
@@ -353,7 +357,6 @@ nav #myNav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
 }
 .seen p {
   margin-top: 40px;
@@ -383,14 +386,15 @@ nav #myNav {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 1000px;
+  width: 850px;
+  margin-top: -50px;
 }
 .seen .container .imag {
   margin-top: 150px;
 }
 .seen .container img {
-  width: 160px;
-  height: 55vh;
+  width: 130px;
+  height: 50vh;
 }
 
 footer {
@@ -440,7 +444,7 @@ footer p {
   nav .logo {
     position: relative;
     right: 10%;
-    width: 150px;
+    width: 130px;
   }
   nav .mylinks .move {
     width: 30px;
@@ -484,7 +488,7 @@ footer p {
     justify-content: center;
   }
   .banner h1 {
-    font-size: 34px;
+    font-size: 32px;
     width: 300px;
     margin-top: 0;
   }
@@ -493,6 +497,9 @@ footer p {
   }
   .banner #non {
     display: none;
+  }
+  .banner .imga {
+    margin-top: 0;
   }
   .banner .disc {
     padding: 8px 10px 8px 10px;
@@ -570,6 +577,7 @@ footer p {
   }
   #Services h2 {
     margin-left: 35px;
+    margin-top: -20px;
     width: 300px;
   }
   #Services .container {
@@ -580,7 +588,7 @@ footer p {
   }
   #Services .container .icons {
     width: 300px;
-    height: 60vh;
+    height: 70vh;
     position: relative;
   }
   #Services .container .icons .icon {
@@ -588,11 +596,11 @@ footer p {
     height: 50px;
     position: absolute;
     left: 83.5%;
-    top: 87.5%;
+    top: 89%;
   }
   #Services .container .iconss {
     width: 300px;
-    height: 60vh;
+    height: 70vh;
     position: relative;
   }
   #Services .container .iconss .icon {
@@ -600,15 +608,15 @@ footer p {
     height: 50px;
     position: absolute;
     left: 83.5%;
-    top: 87.5%;
+    top: 89%;
   }
   #Services .container .list {
-    height: 60vh;
+    height: 70vh;
     width: 300px;
   }
   #Services .container .list ol .icon {
     left: 83.5%;
-    top: 87.5%;
+    top: 89%;
   }
   #Testimonial h2 {
     margin-left: 35px;
@@ -1185,6 +1193,15 @@ footer p {
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  nav .logo {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 10vh;
+    width: 300px;
+  }
+  nav .mylinks a {
+    font-size: 28px;
+  }
   .banner h1 {
     font-size: 42px;
     width: 400px;
@@ -1219,7 +1236,7 @@ footer p {
        object-fit: cover;
   }
   #About .container .images .imga {
-    margin-top: 30px;
+    margin-top: 90px;
   }
   #About .vidsss {
     display: flex;
@@ -1229,7 +1246,7 @@ footer p {
     font-size: 22px;
   }
   #About .vidsss button {
-    margin-top: 30px;
+    margin-top: 49px;
   }
   #About .video {
     width: 500px;
@@ -1300,8 +1317,8 @@ footer p {
   }
   #Testimonial .container .Tendai i {
     position: absolute;
-    top: 86%;
-    left: 90%;
+    top: 89%;
+    left: 91.5%;
   }
   #Testimonial .container p {
     font-size: 22px;
@@ -1317,8 +1334,15 @@ footer p {
     background-color: #742296;
     padding: 5px;
     position: absolute;
-    top: 86%;
-    left: 90%;
+    top: 89%;
+    left: 91.5%;
+  }
+  #Testimonial .seen .container {
+    width: 900px;
+  }
+  #Testimonial .seen .container img {
+    width: 140px;
+    height: 50vh;
   }
   #Testimonial .seen p {
     font-size: 22px;

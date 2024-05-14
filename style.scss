@@ -27,6 +27,8 @@ nav{
     justify-content: space-evenly;
     margin-top: 5px;
     margin-bottom: 40px;
+    
+    
 
     .logo{
        position: relative;
@@ -54,8 +56,10 @@ nav{
         }
 
         .move{
-            margin-left: 30px;
+            margin-left: 100px;
             border-radius: 10cm;
+            width: 40px;
+            height: 40px;
         }
 
         .aa{
@@ -323,11 +327,13 @@ nav{
             }
 
             .icon{
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
                 position: absolute;
-                left: 85.5%;
-                top: 89.5%;
+                left: 88.8%;
+                top: 91.5%;
+                background-color: white;
+                padding: 10px;
             }
         }
         h3{
@@ -379,8 +385,8 @@ nav{
             background-color: $mycolor;
             padding: 5px;
             position: absolute;
-            top: 86%;
-            left: 90%;
+            top: 86.4%;
+            left: 90.4%;
         }
     }
     p{
@@ -412,8 +418,8 @@ nav{
             background-color: $mycolor;
             padding: 5px;
             position: absolute;
-            top: 86%;
-            left: 90%;
+            top: 86.4%;
+            left: 90.4%;
         }
 
        
@@ -427,7 +433,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    
 
     p{
         margin-top: 40px;
@@ -463,14 +469,15 @@ nav{
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
-      width: 1000px;
+      width: 850px;
+      margin-top: -50px;
 
       .imag{
         margin-top: 150px;
       }
       img{
-        width: 160px;
-        height: 55vh;
+        width: 130px;
+        height: 50vh;
       }
 
     }
@@ -537,7 +544,7 @@ footer{
         .logo{
             position: relative;
             right: 10%;
-            width: 150px;
+            width: 130px;
          }
 
          .mylinks{
@@ -595,7 +602,7 @@ footer{
         justify-content: center;
 
         h1{
-            font-size: 34px;
+            font-size: 32px;
             width: 300px;
             margin-top: 0;
         }
@@ -606,6 +613,10 @@ footer{
 
         #non{
             display: none;
+        }
+
+        .imga{
+            margin-top: 0;
         }
 
         .disc{
@@ -715,6 +726,7 @@ footer{
 
     h2{
         margin-left: 35px;
+        margin-top: -20px;
         width: 300px;
     }
 
@@ -727,7 +739,7 @@ footer{
 
        .icons{
          width:300px ;
-         height: 60vh;
+         height: 70vh;
          position: relative;
 
          .icon{
@@ -735,14 +747,14 @@ footer{
             height: 50px;
             position: absolute;
             left: 83.5%;
-            top: 87.5%;
+            top: 89%;
         }
 
        }
 
        .iconss{
         width:300px ;
-        height: 60vh;
+        height: 70vh;
         position: relative;
 
         .icon{
@@ -750,20 +762,20 @@ footer{
             height: 50px;
             position: absolute;
             left: 83.5%;
-            top: 87.5%;
+            top: 89%;
         }
       }
 
 
        .list{
-        height: 60vh;
+        height: 70vh;
         width: 300px;
 
         ol{
 
             .icon{
                 left: 83.5%;
-                top: 87.5%;
+                top: 89%;
             }
         }
     
@@ -1571,25 +1583,24 @@ footer{
 @media only screen and (min-width: 1399.98px) {
     
 
-    // nav{
-    //     margin-top: 20px;
-    
-    //     .logo{
-    //        position: relative;
-    //        right: 5%;
-    //     }
+    nav{
         
-    //     .mylinks{
     
-    //         .move{
-    //             width: 40px;
-    //             height: 40px;
+        .logo{
+           object-fit: contain;
+           height: 10vh;
+           width: 300px;
+        }
+        
+        .mylinks{
+
+            a{
+                font-size: 28px;
+            }
     
-    //         }
-    
-    //     }
+        }
        
-    // }
+    }
     
     .banner{
     
@@ -1644,7 +1655,7 @@ footer{
                }
                
                .imga{
-                margin-top: 30px;
+                margin-top: 90px;
                }
             }
         }
@@ -1658,7 +1669,7 @@ footer{
             }
     
             button{
-                margin-top: 30px;
+                margin-top: 49px;
             }
         }
     
@@ -1762,8 +1773,8 @@ footer{
             height: 45vh;
             i{
                 position: absolute;
-                top: 86%;
-                left: 90%;
+                top: 89%;
+                left: 91.5%;
             }
         }
         p{
@@ -1784,8 +1795,8 @@ footer{
                 background-color: $mycolor;
                 padding: 5px;
                 position: absolute;
-                top: 86%;
-                left: 90%;
+                top: 89%;
+                left: 91.5%;
             }
     
            
@@ -1794,6 +1805,17 @@ footer{
     }
     
     .seen{
+
+        .container{
+            width: 900px;
+
+
+            img{
+                width: 140px;
+                height: 50vh;
+            }
+    
+        }
     
     
         p{
